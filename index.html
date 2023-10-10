@@ -4,84 +4,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style-start.css">
     <title>Bill Gates CV</title>
 </head>
 
 <body>
-    <header>
-        <img src="./assets/img/bill gates.webp" alt="Photo de Bill Gates">
-        <h1>Bill Gates</h1>
-        <h2>Developpeur web senior</h2>
-        <section>
-            <nav>
-                <a
-                    href="https://www.google.com/maps/search/+7400+Northeast+18th+Street/@47.6273712,-122.2448293,17z/data=!3m1!4b1?entry=ttu">
-                    7400Northeast 18th Street</a>
-                <a href="mailto:BillGates@outlook.com">BillGates@outlook.com</a>
-                <a href="tel:(555) 555 0963">(555) 555 0963</a>
-            </nav>
-        </section>
-    </header>
-    <main>
-        <section>
-            <h2>A propos</h2>
-            <p>Né le 28 octobre 1955 à Seattle, Bill Gates étudie à la Lakeside School de sa ville natale, avec son ami
-                d'enfance Paul
-                Allen. Ils y découvrent l'informatique, l'école ayant loué un prototype PDP-10 (ancêtre de
-                l'ordinateur), sur lequel ils
-                réalisent la programmation d'un jeu de Morpion.
-                En 1968, il entre à l'université d'Harvard où il fera la connaissance de Steve Ballmer. Il abandonne
-                ensuite rapidement
-                ses études pour se consacrer à l'informatique.</p>
-            <h2>Langues parlées</h2>
-            <ul>
-                <li>Anglais - langue maternelle</li>
-                <li>Francais - Debutant</li>
-                <li>espagnol - Debutant</li>
-            </ul>
-            <h2>Centre d'interet</h2>
-            <ul>
-                <li>Informatique</li>
-                <li>Golf</li>
-                <li>Voyages</li>
-                <li>Bateaux</li>
-            </ul>
-        </section>
-        <h2>Experiences Professionelles</h2>
-        <p>Fondateur chez microsoft</p>
-        <p>De avril 1975 à Juillet 2000</p>
-        <ul>
-            <li>associé à IBM pour créer un système d'exploitation PC DOS</li>
-            <li>Création du système d'exploitation Windows</li>
-            <li>Supervisé le developement de Microsoft Office</li>
-        </ul>
-        <p>Fondateur et coprésident chez Bill and melinda Gates Foundation</p>
-        <p>De Octobre 2000 à toujours en activité</p>
-        <ul>
-            <li>développement d'une politique de libre accès aux données et aux publications</li>
-            <li>signataire de l'engagement de don</li>
-            <li>dédié à l'amélioration des soins de santé et à la réduction de l'extrême pauvreté dans le monde</li>
-        </ul>
-        <h2>Diplômes/Formations</h2>
-        <p>Diplôme??</p>
-        <p>De 1967 à 1973</p>
-        <p>Lakeside School</p>
-        <p>Diplôme?</p>
-        <p>De 1973 à 1975</p>
-        <p>Harvard College</p>
-        <h2>Compétences</h2>
-        <ul>
-            <li>HTML-5 Expert</li>
-            <li>Css-3 Expert</li>
-            <li>Github Expert</li>
-        </ul>
-    </main>
-    <footer>
-        <img src="./assets/img/linkedin.png" alt="logo de Linkedin">
-        <img src="./assets/img/twitter.png" alt="logo de Twitter">
-        <img src="./assets/img/logo-github.png" alt="logo de GitHub">
-        <p><small>Dernière mise à jour le <time datetime="09/10/2023">9 octobre 2023</time></small></p>
-    </footer>
+    <div class="all">
+        <header>
+            <div class="Gates">
+                <a href="./assets/img/bill gates.webp" target="_blank">
+                    <img src="./assets/img/bill gates.webp" alt="Photo de Bill Gates">
+                </a>
+                <h1 class="text-headline">Bill Gates</h1>
+                <h2 class="text-headline">Developpeur web senior</h2>
+            </div>
+            <section>
+                <div class="perso">
+                    <nav class="nav-container">
+                        <a class="perso-link"
+                            href="https://www.google.com/maps/search/+7400+Northeast+18th+Street/@47.6273712,-122.2448293,17z/data=!3m1!4b1?entry=ttu"
+                            target="_blank">
+                            7400 Northeast 18th Street <br> Seattle</a>
+                        <a class="perso-link" href="mailto:BillGates@outlook.com"
+                            target="_blank">BillGates@outlook.com</a>
+
+                        <a class="perso-link" href="tel:(555) 555 0963" target="_blank">(555) 555 0963</a>
+                    </nav>
+                </div>
+            </section>
+        </header>
+        <main>
+            <div class="bloc-container">
+                <div class="infos">
+                    <section>
+                        <div class="color">
+                            <h2 class="text-headline">A propos</h2>
+                            <div class="text-container">
+                                <p class="text">Né le 28 octobre 1955 à Seattle, Bill Gates étudie à la Lakeside School
+                                    de sa ville
+                                    natale,
+                                    avec
+                                    son
+                                    ami
+                                    d'enfance Paul
+                                    Allen. Ils y découvrent l'informatique, l'école ayant loué un prototype PDP-10
+                                    (ancêtre
+                                    de
+                                    l'ordinateur), sur lequel ils
+                                    réalisent la programmation d'un jeu de Morpion.
+                                    En 1968, il entre à l'université d'Harvard où il fera la connaissance de Steve
+                                    Ballmer.
+                                    Il
+                                    abandonne
+                                    ensuite rapidement
+                                    ses études pour se consacrer à l'informatique.</p>
+                            </div>
+                            <h2 class="text-headline">Langues parlées</h2>
+                            <ul class="text">
+                                <li>Anglais - langue maternelle</li>
+                                <li>Francais - Debutant</li>
+                                <li>espagnol - Debutant</li>
+                            </ul>
+                            <h2 class="text-headline">Centre d'interet</h2>
+                        </div>
+                        <ul class="text">
+                            <li>Informatique</li>
+                            <li>Golf</li>
+                            <li>Voyages</li>
+                            <li>Bateaux</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="experiences">
+                    <section>
+                        <h2 class="text-headline">Experiences Professionelles</h2>
+                        <h3 class="text-headline">Fondateur chez microsoft</h3>
+                        <p class="text">De avril 1975 à Juillet 2000</p>
+                        <ul class="text">
+                            <li>associé à IBM pour créer un système d'exploitation PC DOS</li>
+                            <li>Création du système d'exploitation Windows</li>
+                            <li>Supervisé le developement de Microsoft Office</li>
+                        </ul>
+
+                        <h3 class="text-headline">Fondateur et coprésident chez Bill and melinda Gates Foundation</h3>
+                        <p class="text">De Octobre 2000 à toujours en activité</p>
+                        <ul class="text">
+                            <li>développement d'une politique de libre accès aux données et aux publications</li>
+                            <li>signataire de l'engagement de don</li>
+                            <li>dédié à l'amélioration des soins de santé et à la réduction de l'extrême pauvreté dans
+                                le
+                                monde
+                            </li>
+                        </ul>
+                        <h3 class="text-headline">Fondateur chez microsoft</h3>
+                        <p class="text">De avril 1975 à Juillet 2000</p>
+                        <ul class="text">
+                            <li>associé à IBM pour créer un système d'exploitation PC DOS</li>
+                            <li>Création du système d'exploitation Windows</li>
+                            <li>Supervisé le developement de Microsoft Office</li>
+
+                        </ul>
+                        <h2 class="text-headline">Diplômes/Formations</h2>
+                        <h3 class="text-headline">Diplôme?</h3>
+                        <p class="text">De 1967 à 1973</p>
+                        <p class="text">Lakeside School</p>
+                        <h3 class="text-headline">Diplôme?</h3>
+                        <p class="text">De 1973 à 1975</p>
+                        <p class="text">Harvard College</p>
+                        <h2 class="text-headline">Compétences</h2>
+                        <ul class="text">
+                            <li>HTML-5 Expert</li>
+                            <li>Css-3 Expert</li>
+                            <li>Github Expert</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/williamhgates/?trk=public-profile-join-page" target="_blank">
+                    <img src="./assets/img/linkedin.png" alt="logo de Linkedin">
+                </a>
+                <a href="https://twitter.com/?lang=fr" target="_blank">
+                    <img src="./assets/img/twitter.png" alt="logo de Twitter">
+                </a>
+                <a href="https://github.com/" target="_blank">
+                    <img src="./assets/img/logo-github.png" alt="logo de GitHub">
+                </a>
+            </div>
+            <div class="date">
+                <p><small>Dernière mise à jour le <time datetime="09/10/2023">9 octobre 2023</time></small></p>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
